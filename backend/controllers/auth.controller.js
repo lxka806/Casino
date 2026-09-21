@@ -44,9 +44,6 @@ const register = async (req, res) => {
             username,
             email,
             password: hashedPassword,
-
-            // These values also have defaults
-            // in the User model.
             credits: 10000,
             gamesPlayed: 0,
             wins: 0,
@@ -68,9 +65,8 @@ const register = async (req, res) => {
         // Save token in HTTP-only cookie
         res.cookie("token", token, {
             httpOnly: true,
-            secure: isProduction,
-            sameSite: isProduction ? "none" : "lax",
-            path: "/",
+            secure: true,
+            sameSite: "none",
             maxAge: 7 * 24 * 60 * 60 * 1000,
         });
 
@@ -144,12 +140,10 @@ const login = async (req, res) => {
         // Save token in HTTP-only cookie
         res.cookie("token", token, {
             httpOnly: true,
-            secure: isProduction,
-            sameSite: isProduction ? "none" : "lax",
-            path: "/",
+            secure: true,
+            sameSite: "none",
             maxAge: 7 * 24 * 60 * 60 * 1000,
         });
-
         return res.status(200).json({
             message: "Login successful.",
             user: {

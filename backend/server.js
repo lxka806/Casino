@@ -12,9 +12,9 @@ const userRouters = require("./routers/user.route")
 const app = express()
 
 app.use(cors({
-    origin: "https://casino-luka.netlify.app",
+    origin: true,
     credentials: true,
-}))
+}));
 app.use(express.json())
 app.use(cookieParser())
 app.use("/api/auth", authRhouter)
