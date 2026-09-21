@@ -11,33 +11,29 @@ A modern full-stack virtual casino web application featuring casino-style games,
 ### Home / Landing Page
 
 <!-- Replace the path below with your screenshot -->
-![Casino Homepage](./screenshots/home.png)
+![Home Page](./frontend/src/screenshots/home.png)
 
 ### Dashboard
 
 <!-- Replace the path below with your screenshot -->
-![Dashboard](./screenshots/dashboard.png)
+![Dashboard](./frontend/src/screenshots/dashboard.png)
 
 ### Blackjack
 
 <!-- Replace the path below with your screenshot -->
-![Blackjack](./screenshots/blackjack.png)
+![Blackjack](./frontend/src/screenshots/blackjack.png)
 
 ### Slots
 
-<!-- Replace the path below with your screenshot -->
-![Slots](./screenshots/slots.png)
+![Slots](./frontend/src/screenshots/slots.png)
 
 ### Leaderboard
 
-<!-- Replace the path below with your screenshot -->
-![Leaderboard](./screenshots/leaderboard.png)
+![Leaderboard](./frontend/src/screenshots/leaderboard.png)
 
 ### Profile
 
-<!-- Replace the path below with your screenshot -->
-![Profile](./screenshots/profile.png)
-
+![Profile](./frontend/src/screenshots/profile.png)
 ---
 
 ## ✨ Features
@@ -292,7 +288,7 @@ The application is designed to work across:
 - Mobile
 
 <!-- Add mobile screenshot here -->
-![Mobile View](./screenshots/mobile.png)
+![Mobile View](./frontend/src/screenshots/mobile.png)
 
 ---
 
